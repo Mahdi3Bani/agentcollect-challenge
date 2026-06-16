@@ -1,0 +1,31 @@
+company_name,contact_name,contact_role,contact_email_or_phone,confidence_score,source,needs_human_review
+Cedar Ridge Plumbing LLC,Daniel Ortega,Owner,d.ortega@cedarridgeplumbing.com,89,registry+listing+enrichment,False
+Bayview Auto Repair,Karen Liu,Owner,karen@bayviewauto.com,73,registry+enrichment,False
+Sunbelt Roofing Co,,,,60,listing+enrichment,True
+Riverside Print & Sign,,,,22,enrichment,True
+Magnolia Family Dental,Dr. Patel,,,46,listing,True
+Northgate HVAC Services,Thomas Reed,Registered Agent,,10,registry,True
+Pioneer Landscaping Inc,Maria Gomez,President,maria@pioneerlandscaping.com,89,registry+listing+enrichment,False
+Harbor Light Electric,Sean Murphy,Owner,+1-508-555-0160,73,registry+listing,False
+Summit Pest Control,,,,22,enrichment,True
+Greenfield Catering Group,Angela Brooks,Owner,a.brooks@greenfieldcater.com,73,registry+enrichment,False
+Lakeside Auto Glass,Jeff (manager),,,68,listing+enrichment,True
+Ironclad Welding Shop,Robert Kowalski,Owner,bob@ironcladweld.com,89,registry+listing+enrichment,False
+Coastal Breeze Pool Service,Tina Alvarez,Manager,,30,registry+listing,True
+Redwood Cabinetry,,,,0,none,True
+Anchor Marine Supply,,,,40,enrichment,True
+Desert Sky Solar,,,,0,none,True
+Brookside Veterinary Clinic,Dr. Emily Hart,Owner,emily.hart@brooksidevet.com,89,registry+listing+enrichment,False
+Cornerstone Masonry,,,,0,none,True
+Velvet Thread Tailoring,,,,0,none,True
+Frontier Towing & Recovery,,,,0,none,True
+Blue Heron Landscaping,,,,0,none,True
+Ace Mobile Locksmith,,,,0,none,True
+Maple Leaf Bakery,,,,40,listing,True
+Granite Peak Surveying,,,,0,none,True
+Tidewater Plumbing & Heating,George Whitfield,Owner,g.whitfield@tidewaterph.com,73,registry+enrichment,False
+Sierra Vista Auto Body,,,,0,none,True
+Hometown Hardware Co,,,,22,enrichment,True
+Evergreen Tree Care,,,,0,none,True
+Liberty Sign & Awning,,,,0,none,True
+Crescent Moon Cafe,,,,0,none,True

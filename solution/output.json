@@ -1,0 +1,503 @@
+[
+  {
+    "company_name": "Cedar Ridge Plumbing LLC",
+    "contact_name": "Daniel Ortega",
+    "contact_role": "Owner",
+    "contact_email_or_phone": "d.ortega@cedarridgeplumbing.com",
+    "confidence_score": 89,
+    "source": "registry+listing+enrichment",
+    "needs_human_review": false,
+    "provenance": [
+      "mock://registry/ne/cedar-ridge-plumbing",
+      "mock://listing/cedar-ridge-plumbing",
+      "mock://enrichment/cedar-ridge-plumbing"
+    ],
+    "reasons": [
+      "registry and listing name agree",
+      "enrichment email matches the person",
+      "named person identified",
+      "corroborated by an independent source",
+      "multiple independent sources agree",
+      "contact is directly attributable to the person",
+      "role 'Owner' is a valid decision-maker"
+    ]
+  },
+  {
+    "company_name": "Bayview Auto Repair",
+    "contact_name": "Karen Liu",
+    "contact_role": "Owner",
+    "contact_email_or_phone": "karen@bayviewauto.com",
+    "confidence_score": 73,
+    "source": "registry+enrichment",
+    "needs_human_review": false,
+    "provenance": [
+      "mock://registry/wa/bayview-auto-repair",
+      "mock://enrichment/bayview-auto-repair"
+    ],
+    "reasons": [
+      "enrichment email matches the person",
+      "named person identified",
+      "corroborated by an independent source",
+      "contact is directly attributable to the person",
+      "role 'Owner' is a valid decision-maker"
+    ]
+  },
+  {
+    "company_name": "Sunbelt Roofing Co",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 60,
+    "source": "listing+enrichment",
+    "needs_human_review": true,
+    "provenance": [
+      "mock://listing/sunbelt-roofing",
+      "mock://enrichment/sunbelt-roofing"
+    ],
+    "reasons": [
+      "phone confirmed by two independent sources",
+      "phone corroborated but no person identified",
+      "below threshold 70 -> contact withheld, sent to human review"
+    ]
+  },
+  {
+    "company_name": "Riverside Print & Sign",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 22,
+    "source": "enrichment",
+    "needs_human_review": true,
+    "provenance": [
+      "mock://enrichment/riverside-print-sign"
+    ],
+    "reasons": [
+      "single unverifiable source",
+      "contact is a generic inbox, not a person",
+      "below threshold 70 -> contact withheld, sent to human review"
+    ]
+  },
+  {
+    "company_name": "Magnolia Family Dental",
+    "contact_name": "Dr. Patel",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 46,
+    "source": "listing",
+    "needs_human_review": true,
+    "provenance": [
+      "mock://listing/magnolia-family-dental"
+    ],
+    "reasons": [
+      "named person identified",
+      "contact is directly attributable to the person",
+      "below threshold 70 -> contact withheld, sent to human review"
+    ]
+  },
+  {
+    "company_name": "Northgate HVAC Services",
+    "contact_name": "Thomas Reed",
+    "contact_role": "Registered Agent",
+    "contact_email_or_phone": "",
+    "confidence_score": 10,
+    "source": "registry",
+    "needs_human_review": true,
+    "provenance": [
+      "mock://registry/oh/northgate-hvac"
+    ],
+    "reasons": [
+      "named person identified",
+      "role 'Registered Agent' is not a decision-maker"
+    ]
+  },
+  {
+    "company_name": "Pioneer Landscaping Inc",
+    "contact_name": "Maria Gomez",
+    "contact_role": "President",
+    "contact_email_or_phone": "maria@pioneerlandscaping.com",
+    "confidence_score": 89,
+    "source": "registry+listing+enrichment",
+    "needs_human_review": false,
+    "provenance": [
+      "mock://registry/id/pioneer-landscaping",
+      "mock://listing/pioneer-landscaping",
+      "mock://enrichment/pioneer-landscaping"
+    ],
+    "reasons": [
+      "registry and listing name agree",
+      "enrichment email matches the person",
+      "phone confirmed by two independent sources",
+      "named person identified",
+      "corroborated by an independent source",
+      "multiple independent sources agree",
+      "contact is directly attributable to the person",
+      "role 'President' is a valid decision-maker"
+    ]
+  },
+  {
+    "company_name": "Harbor Light Electric",
+    "contact_name": "Sean Murphy",
+    "contact_role": "Owner",
+    "contact_email_or_phone": "+1-508-555-0160",
+    "confidence_score": 73,
+    "source": "registry+listing",
+    "needs_human_review": false,
+    "provenance": [
+      "mock://registry/ma/harbor-light-electric",
+      "mock://listing/harbor-light-electric"
+    ],
+    "reasons": [
+      "registry and listing name agree",
+      "named person identified",
+      "corroborated by an independent source",
+      "contact is directly attributable to the person",
+      "role 'Owner' is a valid decision-maker"
+    ]
+  },
+  {
+    "company_name": "Summit Pest Control",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 22,
+    "source": "enrichment",
+    "needs_human_review": true,
+    "provenance": [
+      "mock://enrichment/summit-pest-control"
+    ],
+    "reasons": [
+      "single unverifiable source",
+      "contact is a generic inbox, not a person",
+      "below threshold 70 -> contact withheld, sent to human review"
+    ]
+  },
+  {
+    "company_name": "Greenfield Catering Group",
+    "contact_name": "Angela Brooks",
+    "contact_role": "Owner",
+    "contact_email_or_phone": "a.brooks@greenfieldcater.com",
+    "confidence_score": 73,
+    "source": "registry+enrichment",
+    "needs_human_review": false,
+    "provenance": [
+      "mock://registry/mo/greenfield-catering",
+      "mock://enrichment/greenfield-catering"
+    ],
+    "reasons": [
+      "enrichment email matches the person",
+      "named person identified",
+      "corroborated by an independent source",
+      "contact is directly attributable to the person",
+      "role 'Owner' is a valid decision-maker"
+    ]
+  },
+  {
+    "company_name": "Lakeside Auto Glass",
+    "contact_name": "Jeff (manager)",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 68,
+    "source": "listing+enrichment",
+    "needs_human_review": true,
+    "provenance": [
+      "mock://listing/lakeside-auto-glass",
+      "mock://enrichment/lakeside-auto-glass"
+    ],
+    "reasons": [
+      "enrichment email matches the person",
+      "named person identified",
+      "corroborated by an independent source",
+      "contact is directly attributable to the person",
+      "below threshold 70 -> contact withheld, sent to human review"
+    ]
+  },
+  {
+    "company_name": "Ironclad Welding Shop",
+    "contact_name": "Robert Kowalski",
+    "contact_role": "Owner",
+    "contact_email_or_phone": "bob@ironcladweld.com",
+    "confidence_score": 89,
+    "source": "registry+listing+enrichment",
+    "needs_human_review": false,
+    "provenance": [
+      "mock://registry/pa/ironclad-welding",
+      "mock://listing/ironclad-welding",
+      "mock://enrichment/ironclad-welding"
+    ],
+    "reasons": [
+      "registry and listing name agree",
+      "phone confirmed by two independent sources",
+      "named person identified",
+      "corroborated by an independent source",
+      "multiple independent sources agree",
+      "contact is directly attributable to the person",
+      "role 'Owner' is a valid decision-maker"
+    ]
+  },
+  {
+    "company_name": "Coastal Breeze Pool Service",
+    "contact_name": "Tina Alvarez",
+    "contact_role": "Manager",
+    "contact_email_or_phone": "",
+    "confidence_score": 30,
+    "source": "registry+listing",
+    "needs_human_review": true,
+    "provenance": [
+      "mock://registry/fl/coastal-breeze-pool",
+      "mock://listing/coastal-breeze-pool"
+    ],
+    "reasons": [
+      "sources disagree on who the contact is -> not safe to act on",
+      "role 'Manager' is a valid decision-maker",
+      "below threshold 70 -> contact withheld, sent to human review"
+    ]
+  },
+  {
+    "company_name": "Redwood Cabinetry",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 0,
+    "source": "none",
+    "needs_human_review": true,
+    "provenance": [],
+    "reasons": [
+      "no source returned anything for this company"
+    ]
+  },
+  {
+    "company_name": "Anchor Marine Supply",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 40,
+    "source": "enrichment",
+    "needs_human_review": true,
+    "provenance": [
+      "mock://enrichment/anchor-marine"
+    ],
+    "reasons": [
+      "single unverifiable source",
+      "below threshold 70 -> contact withheld, sent to human review"
+    ]
+  },
+  {
+    "company_name": "Desert Sky Solar",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 0,
+    "source": "none",
+    "needs_human_review": true,
+    "provenance": [],
+    "reasons": [
+      "no source returned anything for this company"
+    ]
+  },
+  {
+    "company_name": "Brookside Veterinary Clinic",
+    "contact_name": "Dr. Emily Hart",
+    "contact_role": "Owner",
+    "contact_email_or_phone": "emily.hart@brooksidevet.com",
+    "confidence_score": 89,
+    "source": "registry+listing+enrichment",
+    "needs_human_review": false,
+    "provenance": [
+      "mock://registry/tn/brookside-vet",
+      "mock://listing/brookside-vet",
+      "mock://enrichment/brookside-vet"
+    ],
+    "reasons": [
+      "registry and listing name agree",
+      "enrichment email matches the person",
+      "named person identified",
+      "corroborated by an independent source",
+      "multiple independent sources agree",
+      "contact is directly attributable to the person",
+      "role 'Owner' is a valid decision-maker"
+    ]
+  },
+  {
+    "company_name": "Cornerstone Masonry",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 0,
+    "source": "none",
+    "needs_human_review": true,
+    "provenance": [],
+    "reasons": [
+      "no source returned anything for this company"
+    ]
+  },
+  {
+    "company_name": "Velvet Thread Tailoring",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 0,
+    "source": "none",
+    "needs_human_review": true,
+    "provenance": [],
+    "reasons": [
+      "no source returned anything for this company"
+    ]
+  },
+  {
+    "company_name": "Frontier Towing & Recovery",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 0,
+    "source": "none",
+    "needs_human_review": true,
+    "provenance": [],
+    "reasons": [
+      "no source returned anything for this company"
+    ]
+  },
+  {
+    "company_name": "Blue Heron Landscaping",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 0,
+    "source": "none",
+    "needs_human_review": true,
+    "provenance": [],
+    "reasons": [
+      "no source returned anything for this company"
+    ]
+  },
+  {
+    "company_name": "Ace Mobile Locksmith",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 0,
+    "source": "none",
+    "needs_human_review": true,
+    "provenance": [],
+    "reasons": [
+      "no source returned anything for this company"
+    ]
+  },
+  {
+    "company_name": "Maple Leaf Bakery",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 40,
+    "source": "listing",
+    "needs_human_review": true,
+    "provenance": [
+      "mock://listing/maple-leaf-bakery"
+    ],
+    "reasons": [
+      "single unverifiable source",
+      "below threshold 70 -> contact withheld, sent to human review"
+    ]
+  },
+  {
+    "company_name": "Granite Peak Surveying",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 0,
+    "source": "none",
+    "needs_human_review": true,
+    "provenance": [],
+    "reasons": [
+      "no source returned anything for this company"
+    ]
+  },
+  {
+    "company_name": "Tidewater Plumbing & Heating",
+    "contact_name": "George Whitfield",
+    "contact_role": "Owner",
+    "contact_email_or_phone": "g.whitfield@tidewaterph.com",
+    "confidence_score": 73,
+    "source": "registry+enrichment",
+    "needs_human_review": false,
+    "provenance": [
+      "mock://registry/va/tidewater-plumbing",
+      "mock://enrichment/tidewater-plumbing"
+    ],
+    "reasons": [
+      "enrichment email matches the person",
+      "named person identified",
+      "corroborated by an independent source",
+      "contact is directly attributable to the person",
+      "role 'Owner' is a valid decision-maker"
+    ]
+  },
+  {
+    "company_name": "Sierra Vista Auto Body",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 0,
+    "source": "none",
+    "needs_human_review": true,
+    "provenance": [],
+    "reasons": [
+      "no source returned anything for this company"
+    ]
+  },
+  {
+    "company_name": "Hometown Hardware Co",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 22,
+    "source": "enrichment",
+    "needs_human_review": true,
+    "provenance": [
+      "mock://enrichment/hometown-hardware"
+    ],
+    "reasons": [
+      "single unverifiable source",
+      "contact is a generic inbox, not a person",
+      "below threshold 70 -> contact withheld, sent to human review"
+    ]
+  },
+  {
+    "company_name": "Evergreen Tree Care",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 0,
+    "source": "none",
+    "needs_human_review": true,
+    "provenance": [],
+    "reasons": [
+      "no source returned anything for this company"
+    ]
+  },
+  {
+    "company_name": "Liberty Sign & Awning",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 0,
+    "source": "none",
+    "needs_human_review": true,
+    "provenance": [],
+    "reasons": [
+      "no source returned anything for this company"
+    ]
+  },
+  {
+    "company_name": "Crescent Moon Cafe",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_email_or_phone": "",
+    "confidence_score": 0,
+    "source": "none",
+    "needs_human_review": true,
+    "provenance": [],
+    "reasons": [
+      "no source returned anything for this company"
+    ]
+  }
+]
